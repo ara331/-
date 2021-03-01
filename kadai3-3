@@ -1,3 +1,4 @@
+//pngを受け取ってそれを表示するプログラム
 <?php
 if (isset($_FILES['upfile']['error']) and is_int($_FILES['upfile']['error']) and $_FILES["upfile"]["name"] !== "") {
     //エラーチェック
